@@ -59,7 +59,7 @@ const Contato = () => {
                     <p className="font-medium text-black">Horário de Funcionamento:</p>
                     <ul className="text-gray-600 space-y-1">
                       <li>Segunda a Sexta: 10h às 20h</li>
-                      <li>Sábado: 09h às 20h</li>
+                      <li>Sábado: 09h às 19h</li>
                       <li>Domingo: Fechado</li>
                     </ul>
                   </div>
@@ -73,7 +73,7 @@ const Contato = () => {
                     href="https://www.instagram.com/barbearia_dagringa/" 
                     target="_blank" 
                     rel="noopener noreferrer"
-                    className="bg-gray-100 hover:bg-[#456041] hover:text-white p-3 rounded-full transition-colors"
+                    className="bg-[#456041] text-white hover:bg-[#364830] p-3 rounded-full transition-colors"
                     aria-label="Instagram"
                   >
                     <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">

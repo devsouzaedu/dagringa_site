@@ -63,7 +63,7 @@ const Header = () => {
 
         {/* Menu para mobile */}
         <div className={`fixed inset-0 bg-white z-40 transform transition-transform duration-300 ${isOpen ? 'translate-x-0' : 'translate-x-full'} md:hidden`}>
-          <div className="h-full flex flex-col items-center justify-center gap-8 text-xl">
+          <div className="h-full flex flex-col items-center justify-center gap-8 text-xl text-black">
             <Link href="/" className="font-medium" onClick={() => setIsOpen(false)}>
               Início
             </Link>
