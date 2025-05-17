@@ -1,7 +1,5 @@
 "use client";
 
-import Image from 'next/image';
-
 const Contato = () => {
   return (
     <section id="contato" className="py-16 bg-gray-50">
