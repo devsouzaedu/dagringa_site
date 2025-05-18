@@ -5,11 +5,11 @@ import Image from 'next/image';
 const NossoEspaco = () => {
   const espacoImages = [
     {
-      src: '/images/espaço_da_gringa_interno_1.jpg',
+      src: '/images/fotos_novas_novo_espaco_barbeariadagringa (1).jpeg',
       alt: 'Espaço interno da Barbearia Da Gringa'
     },
     {
-      src: '/images/espaço_da_gringa_interno_2.jpg',
+      src: '/images/fotos_novas_novo_espaco_barbeariadagringa (2).jpeg',
       alt: 'Ambiente da Barbearia Da Gringa'
     }
   ];
