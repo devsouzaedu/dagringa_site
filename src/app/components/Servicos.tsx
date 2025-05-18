@@ -38,13 +38,13 @@ const Servicos = () => {
           <div className="w-full max-w-lg" data-aos="fade-left" data-aos-delay="100">
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
               <div className="bg-[#456041] py-4 px-6 text-center">
-                <h3 className="text-2xl font-semibold text-black">Tabela de Preços</h3>
+                <h3 className="text-2xl font-semibold text-white">Tabela de Preços</h3>
               </div>
               <div className="divide-y divide-gray-200">
                 {servicos.map((servico, index) => (
                   <div key={index} className="flex justify-between py-5 px-6 hover:bg-gray-50 transition-colors">
                     <div>
-                      <span className="font-medium text-lg bg-blue-500 text-white px-2 py-1 rounded">{servico.nome}</span>
+                      <span className="font-medium text-lg text-black">{servico.nome}</span>
                     </div>
                     <p className="font-semibold text-lg text-[#456041]">{servico.preco}</p>
                   </div>
