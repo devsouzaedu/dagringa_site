@@ -4,13 +4,13 @@ import Image from 'next/image';
 
 const Servicos = () => {
   const servicos = [
-    { nome: 'Corte', preco: 'R$ 45,00', descricao: 'Corte masculino com acabamento perfeito' },
-    { nome: 'Barba', preco: 'R$ 35,00', descricao: 'Aparo, hidratação e modelagem da barba' },
-    { nome: 'Sobrancelha', preco: 'R$ 15,00', descricao: 'Design e acabamento para sobrancelhas' },
-    { nome: 'Corte + Barba', preco: 'R$ 80,00', descricao: 'Combo especial para uma renovação completa' },
-    { nome: 'Progressiva', preco: 'R$ 100,00', descricao: 'Alisamento e redução de volume' },
-    { nome: 'Botox', preco: 'R$ 100,00', descricao: 'Tratamento de hidratação profunda e reconstrução' },
-    { nome: 'Relaxamento', preco: 'R$ 50,00', descricao: 'Redução do volume e definição dos fios' }
+    { nome: 'Corte', preco: 'R$ 45,00' },
+    { nome: 'Barba', preco: 'R$ 35,00' },
+    { nome: 'Sobrancelha', preco: 'R$ 15,00' },
+    { nome: 'Corte e barba', preco: 'R$ 80,00' },
+    { nome: 'Progressiva', preco: 'R$ 100,00' },
+    { nome: 'Botox', preco: 'R$ 100,00' },
+    { nome: 'Relaxamento', preco: 'R$ 50,00' }
   ];
 
   return (
@@ -45,7 +45,6 @@ const Servicos = () => {
                   <div key={index} className="flex justify-between py-5 px-6 hover:bg-gray-50 transition-colors">
                     <div>
                       <h4 className="font-medium text-lg">{servico.nome}</h4>
-                      <p className="text-base text-gray-600">{servico.descricao}</p>
                     </div>
                     <p className="font-semibold text-lg text-[#456041]">{servico.preco}</p>
                   </div>
