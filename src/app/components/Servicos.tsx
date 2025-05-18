@@ -4,14 +4,13 @@ import Image from 'next/image';
 
 const Servicos = () => {
   const servicos = [
-    { nome: 'Corte Tradicional', preco: 'R$ 40,00', descricao: 'Corte clássico masculino com acabamento perfeito' },
-    { nome: 'Corte Degradê', preco: 'R$ 45,00', descricao: 'Fade gradual com transição natural e estilosa' },
-    { nome: 'Barba Completa', preco: 'R$ 35,00', descricao: 'Aparo, hidratação e modelagem da barba' },
-    { nome: 'Corte + Barba', preco: 'R$ 70,00', descricao: 'Combo especial para uma renovação completa' },
-    { nome: 'Corte Infantil', preco: 'R$ 30,00', descricao: 'Corte especial para os pequenos' },
-    { nome: 'Desenho', preco: 'R$ 15,00', descricao: 'Personalização com desenhos no cabelo ou barba' },
-    { nome: 'Hidratação', preco: 'R$ 25,00', descricao: 'Tratamento para cabelo e couro cabeludo' },
-    { nome: 'Sobrancelha', preco: 'R$ 15,00', descricao: 'Design e acabamento para sobrancelhas' }
+    { nome: 'Corte', preco: 'R$ 45,00', descricao: 'Corte masculino com acabamento perfeito' },
+    { nome: 'Barba', preco: 'R$ 35,00', descricao: 'Aparo, hidratação e modelagem da barba' },
+    { nome: 'Sobrancelha', preco: 'R$ 15,00', descricao: 'Design e acabamento para sobrancelhas' },
+    { nome: 'Corte + Barba', preco: 'R$ 80,00', descricao: 'Combo especial para uma renovação completa' },
+    { nome: 'Progressiva', preco: 'R$ 100,00', descricao: 'Alisamento e redução de volume' },
+    { nome: 'Botox', preco: 'R$ 100,00', descricao: 'Tratamento de hidratação profunda e reconstrução' },
+    { nome: 'Relaxamento', preco: 'R$ 50,00', descricao: 'Redução do volume e definição dos fios' }
   ];
 
   return (
